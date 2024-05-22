@@ -1,0 +1,46 @@
+
+/* tablete view */
+@media (max-width: 770px) {
+
+    footer {
+        padding: 2rem 10% 0 10%;
+    }
+    
+}
+/* tablete view end */
+
+/* mobile view */
+@media (max-width: 477px) {
+
+    .logo {
+        width: 190px;
+    }
+
+    .main {
+        padding: 6vw 2vw;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer_left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footerImg{
+        margin-bottom: 0.5rem;
+    }
+
+    .hr{
+        display: initial;
+    }
+    
+}
+/* mobile view end */

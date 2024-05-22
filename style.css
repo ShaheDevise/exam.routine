@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Hind Siliguri", sans-serif;
+    background: #000;
+}
+
+:root{
+    --mainColor: #009245;
+}
+
+.container{
+    width: 100%;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.logo{
+    width: 300px;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.main{
+    color: #fff;
+    max-width: 600px;
+    background: #151515;
+    text-align: center;
+    line-height: 1.5;
+    padding: 2vw;
+    border-radius: 1rem;
+}
+
+.main h1{
+    font-size: 2.5rem;
+    color: var(--mainColor);
+    text-shadow: 0 0 10px var(--mainColor), 0 0 60px var(--mainColor);
+}
+
+.main p{
+    margin: 1rem 0;
+    color: rgba(255,255,255,0.7);
+}
+
+.bold{
+    color: var(--mainColor);
+    text-shadow: 0 0 10px var(--mainColor), 0 0 60px var(--mainColor);
+}
+
+.downloadLogo{
+    width: 65px;
+    height: auto;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    padding: 0.5rem 1.1rem;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    background: var(--mainColor);
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: "Hind Siliguri", sans-serif;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    background: #2dba4e;
+}
+
+button:active{
+    transition: none;
+    background: var(--mainColor);
+}
+
+footer{
+    width: 100%;
+    padding: 5rem 30% 0 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.copywrite{
+    color: rgba(255,255,255,0.5);
+}
+
+.footer_r8{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+}
+
+.social a{
+    color: rgba(255,255,255,0.7);
+}
+
+.social a i{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+.social a i:hover{
+    background: #151515;
+}
+
+.hr{
+    display: none;
+}
